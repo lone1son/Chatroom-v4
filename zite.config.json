@@ -1,0 +1,12 @@
+{
+  "project": {
+    "name": "Game Library",
+    "basePublicIdentifier": "7a999ca4c6646f96"
+  },
+  "integrations": {
+    "openai": {
+      "type": "openai",
+      "connectionId": "svc_583792"
+    }
+  }
+}
