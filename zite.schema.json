@@ -1,0 +1,494 @@
+{
+  "tables": [
+    {
+      "id": "tjcoeB5DSkJ",
+      "sdkName": "games",
+      "name": "Games",
+      "primaryFieldId": "ffkSDAnjNhz",
+      "fields": [
+        {
+          "id": "ffkSDAnjNhz",
+          "sdkName": "title",
+          "definition": {
+            "name": "Title",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fhnQVJybqUx",
+          "sdkName": "platform",
+          "definition": {
+            "name": "Platform",
+            "type": "single_select",
+            "template": {
+              "options": [
+                {
+                  "value": "9ww6",
+                  "label": "PC",
+                  "color": "purple"
+                },
+                {
+                  "value": "eaoZ",
+                  "label": "PlayStation",
+                  "color": "orange"
+                },
+                {
+                  "value": "5aCF",
+                  "label": "Xbox",
+                  "color": "blue"
+                },
+                {
+                  "value": "6QLM",
+                  "label": "Nintendo Switch",
+                  "color": "gray"
+                },
+                {
+                  "value": "7dfA",
+                  "label": "Mobile",
+                  "color": "red"
+                },
+                {
+                  "value": "sG6Q",
+                  "label": "Other",
+                  "color": "yellow"
+                }
+              ],
+              "disableColors": false
+            }
+          }
+        },
+        {
+          "id": "f8YqGedDxDG",
+          "sdkName": "status",
+          "definition": {
+            "name": "Status",
+            "type": "single_select",
+            "template": {
+              "options": [
+                {
+                  "value": "6Ve1",
+                  "label": "Backlog",
+                  "color": "purple"
+                },
+                {
+                  "value": "wWhg",
+                  "label": "Playing",
+                  "color": "orange"
+                },
+                {
+                  "value": "gQh9",
+                  "label": "Completed",
+                  "color": "blue"
+                },
+                {
+                  "value": "hiZZ",
+                  "label": "Dropped",
+                  "color": "gray"
+                },
+                {
+                  "value": "ukGF",
+                  "label": "Wishlist",
+                  "color": "red"
+                }
+              ],
+              "disableColors": false
+            }
+          }
+        },
+        {
+          "id": "fub9M1pqDGF",
+          "sdkName": "genre",
+          "definition": {
+            "name": "Genre",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f4sg9d57ekP",
+          "sdkName": "rating",
+          "definition": {
+            "name": "Rating",
+            "type": "rating",
+            "template": {
+              "maxRating": 5
+            }
+          }
+        },
+        {
+          "id": "f9ts5Vqx6Cw",
+          "sdkName": "hoursPlayed",
+          "definition": {
+            "name": "Hours Played",
+            "type": "number",
+            "template": {
+              "numberFormat": "local",
+              "decimalPlaces": 1
+            }
+          }
+        },
+        {
+          "id": "fvB1qjkAfoL",
+          "sdkName": "coverImage",
+          "definition": {
+            "name": "Cover Image",
+            "type": "url",
+            "template": {}
+          }
+        },
+        {
+          "id": "fiYFRBkdX1V",
+          "sdkName": "notes",
+          "definition": {
+            "name": "Notes",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f5pEtqinHBL",
+          "sdkName": "owner",
+          "definition": {
+            "name": "Owner",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "tweEPv5QVe2",
+      "sdkName": "chatProfiles",
+      "name": "Chat Profiles",
+      "primaryFieldId": "fv8ukpDD3Vm",
+      "fields": [
+        {
+          "id": "fv8ukpDD3Vm",
+          "sdkName": "displayName",
+          "definition": {
+            "name": "Display Name",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fmQbs29bPHZ",
+          "sdkName": "member",
+          "definition": {
+            "name": "Member",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": true
+            }
+          }
+        },
+        {
+          "id": "fvZCVBKVQzL",
+          "sdkName": "avatarColor",
+          "definition": {
+            "name": "Avatar Color",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fh5AWB11uRb",
+          "sdkName": "avatarEmoji",
+          "definition": {
+            "name": "Avatar Emoji",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fnRcFQu9cxj",
+          "sdkName": "decoration",
+          "definition": {
+            "name": "Decoration",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fkqpBKb2MfZ",
+          "sdkName": "statusText",
+          "definition": {
+            "name": "Status Text",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fhEeBLYGnko",
+          "sdkName": "lastSeen",
+          "definition": {
+            "name": "Last Seen",
+            "type": "datetime",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        },
+        {
+          "id": "fqq5err3jCz",
+          "sdkName": "coins",
+          "definition": {
+            "name": "Coins",
+            "type": "number",
+            "template": {
+              "defaultValue": 0,
+              "numberFormat": "local",
+              "decimalPlaces": 0
+            }
+          }
+        },
+        {
+          "id": "fwiYXp5hC8x",
+          "sdkName": "ownedDecorations",
+          "definition": {
+            "name": "Owned Decorations",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fuCxfQVt6L8",
+          "sdkName": "avatarImage",
+          "definition": {
+            "name": "Avatar Image",
+            "type": "url",
+            "template": {}
+          }
+        },
+        {
+          "id": "feMUbHc1ynN",
+          "sdkName": "bio",
+          "definition": {
+            "name": "Bio",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fc9VChPuEXi",
+          "sdkName": "nameGradient",
+          "definition": {
+            "name": "Name Gradient",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f7ztqykpBr3",
+          "sdkName": "typingRoom",
+          "definition": {
+            "name": "Typing Room",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f4iUomDiXdB",
+          "sdkName": "typingAt",
+          "definition": {
+            "name": "Typing At",
+            "type": "datetime",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "thRNjSrq3Jr",
+      "sdkName": "chatChannels",
+      "name": "Chat Channels",
+      "primaryFieldId": "ffQPSr14ZFb",
+      "fields": [
+        {
+          "id": "ffQPSr14ZFb",
+          "sdkName": "name",
+          "definition": {
+            "name": "Name",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fg9nEJ4MBuZ",
+          "sdkName": "topic",
+          "definition": {
+            "name": "Topic",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "f8mNQ4r5CPB",
+          "sdkName": "createdAt",
+          "definition": {
+            "name": "Created At",
+            "type": "created_at",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        },
+        {
+          "id": "f22JgyaQSHX",
+          "sdkName": "isPrivate",
+          "definition": {
+            "name": "Is Private",
+            "type": "checkbox",
+            "template": {}
+          }
+        },
+        {
+          "id": "f1SKSnBu2wm",
+          "sdkName": "ownerOnly",
+          "definition": {
+            "name": "Owner Only",
+            "type": "checkbox",
+            "template": {}
+          }
+        },
+        {
+          "id": "fbPX35gQTax",
+          "sdkName": "members",
+          "definition": {
+            "name": "Members",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": true,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "tm4iNFQd7Fe",
+      "sdkName": "chatMessages",
+      "name": "Chat Messages",
+      "primaryFieldId": "f8QHgkkd7Ce",
+      "fields": [
+        {
+          "id": "f8QHgkkd7Ce",
+          "sdkName": "body",
+          "definition": {
+            "name": "Body",
+            "type": "long_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "fqHKvWzhpb8",
+          "sdkName": "author",
+          "definition": {
+            "name": "Author",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": false
+            }
+          }
+        },
+        {
+          "id": "f3JxQkZJqRq",
+          "sdkName": "roomKey",
+          "definition": {
+            "name": "Room Key",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "firmVB3QvSg",
+          "sdkName": "sentAt",
+          "definition": {
+            "name": "Sent At",
+            "type": "created_at",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        },
+        {
+          "id": "f1DWLAiuSBN",
+          "sdkName": "replyTo",
+          "definition": {
+            "name": "Reply To",
+            "type": "single_line_text",
+            "template": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "tu4tZ2YPVRm",
+      "sdkName": "chatReads",
+      "name": "Chat Reads",
+      "primaryFieldId": "fptk8KPUv8o",
+      "fields": [
+        {
+          "id": "fptk8KPUv8o",
+          "sdkName": "roomKey",
+          "definition": {
+            "name": "Room Key",
+            "type": "single_line_text",
+            "template": {}
+          }
+        },
+        {
+          "id": "faaYovmxRjh",
+          "sdkName": "reader",
+          "definition": {
+            "name": "Reader",
+            "type": "user",
+            "template": {
+              "internalOnly": false,
+              "allowMultiple": false,
+              "deleteRowWhenUserDeleted": true
+            }
+          }
+        },
+        {
+          "id": "f2o8mcEdqcD",
+          "sdkName": "lastReadAt",
+          "definition": {
+            "name": "Last Read At",
+            "type": "datetime",
+            "template": {
+              "timezone": "",
+              "dateFormat": "local",
+              "timeFormat": "12h",
+              "displayTimeZone": false
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
